@@ -1,0 +1,19 @@
+{
+  "apps": {
+    "app1": {
+      "version": "1.0.0",
+      "dependencies": ["common"],
+      "files": ["apps/app1/main.lua"]
+    },
+    "app2": {
+      "version": "1.0.0",
+      "dependencies": ["common"],
+      "files": ["apps/app2/main.lua"]
+    },
+    "common": {
+      "version": "1.0.0",
+      "dependencies": [],
+      "files": ["libs/common.lua"]
+    }
+  }
+}
